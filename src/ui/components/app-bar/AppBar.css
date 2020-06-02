@@ -1,0 +1,58 @@
+.app-bar {
+    height: 56px;
+    background: #4CAF50;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.inner-app-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.button {
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.uncompleted {
+    background: #FF5722;
+}
+
+.completed {
+    background: #4CAF50;
+}
+
+.actions {
+    display: flex;
+    align-self: center;
+}
+
+.actions span {
+    margin: 5px;
+}
+
+.create {
+    background: #48984b;
+}
+
+.delete {
+    background: #F44336;
+}

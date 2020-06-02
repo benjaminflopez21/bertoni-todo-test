@@ -1,0 +1,84 @@
+.task {
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0px 15px 15px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.innerTask {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.central-container {
+    flex: 1;
+    align-self: center;
+    padding: 0px 30px;
+    max-width: 66%;
+}
+
+.check-container {
+    align-self: center;
+}
+
+.title {
+    margin: 10px;
+    font-size: 18px;
+    color: #737373;
+    max-width: 100%;
+    word-break: break-all;
+}
+
+.created-on {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #c7c7c7;
+}
+
+.button {
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.uncompleted {
+    background: #FF5722;
+}
+
+.completed {
+    background: #4CAF50;
+}
+
+.actions {
+    align-self: center;
+}
+
+.actions span {
+    margin: 5px;
+}
+
+.edit {
+    background: #a2a2a2;
+}
+
+.save {
+    background: #4caf50;
+}
+
+.delete {
+    background: #F44336;
+}

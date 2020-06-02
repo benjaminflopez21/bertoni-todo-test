@@ -1,0 +1,14 @@
+.page {
+    background: #efefef;
+    min-height: 100vh;
+    margin-top: 56px;
+}
+
+.innerPage {
+    padding-top: 25px;
+    background: #efefef;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    min-height: 100vh;
+}
