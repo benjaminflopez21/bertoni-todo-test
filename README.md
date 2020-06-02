@@ -24,7 +24,7 @@ In the project directory, run next command to test the project:
 
 **Steps to run the project**
 
-- In the project directory, run yhe next commands
+- In the project directory, run the next commands
 - npm install (Download all project dependencies)
 - npm run-script build (build the app the web app)
 - node server.js  (start the server in [http://localhost:8080](http://localhost:8080))
